@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header start -->
+
+    <header>
+      <a href="#" class="logo">SKOUZA</a>
+      <nav>
+        <ul class="md">
+          <li class=""><a href="#home">Home</a></li>
+          <li><a class="" href="#about">About</a></li>
+          <li><a class="" href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="dm">
+          <button id="toggle-list">|||</button>
+          <ul class="list-mobile">
+            <li class=""><a href="#home">Home</a></li>
+            <li><a class="" href="#about">About</a></li>
+            <li><a class="" href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header end -->
+
+    <!-- container start -->
+
+    <section id="home">
+      <div class="text">
+        <h3>Welcome to my PortFolio</h3>
+        <h2>Hello my name is <span>M</span>arwane <span>O</span>raiche</h2>
+        <h3>I'm <span>FullStack devloper</span></h3>
+      </div>
+      <div class="my-img"></div>
+    </section>
+
+    <section id="about">
+      <div class="">
+        <h2>About Me :</h2>
+        <p>
+          Hello, my name is Marwane Oraiche and I am a 16-year-old aspiring web
+          developer. I have a passion for coding and a strong interest in
+          building websites. I am skilled in HTML, CSS, and JavaScript, which
+          are the foundations of web development. I enjoy creating visually
+          appealing and interactive web pages that provide a great user
+          experience.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90%" style="max-width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">css</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="80%" style="max-width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="65%" style="max-width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">tailwind css</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="95%" style="max-width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">react js</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="55%" style="max-width: 55%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">express js</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="48%" style="max-width: 48%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <div class="details mdb">
+          <div class="address det mdb">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="p-one">Morocco</div>
+            <div class="p-two">SidiBennour , 18</div>
+          </div>
+          <div class="phone det mdb">
+            <i class="fa-solid fa-phone"></i>
+            <div class="p-one">+212 623839930</div>
+            <div class="p-two">+212 723351203</div>
+          </div>
+          <div class="phone det mdb">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="p-one">skouza.101@gmail.com</div>
+            <div class="p-two">Marwane@outlook.sa</div>
+          </div>
+        </div>
+        <span class="point mdb"></span>
+        <form class="form" action="https://formsubmit.co/zakariyaeoraiche2@gmail.com" method="POST">
+          <p class="title">Contact Us</p>
+          <p class="message">if you have work for me . contact me :</p>
+          <div class="flex">
+            <label>
+              <input required="" name="Firstname" placeholder="" type="text" class="input" />
+              <span>Firstname</span>
+            </label>
+
+            <label>
+              <input required="" name="Lastname" placeholder="" type="text" class="input" />
+              <span>Lastname</span>
+            </label>
+          </div>
+
+          <label>
+            <input required="" name="Email" placeholder="" type="email" class="input" />
+            <span>Email</span>
+          </label>
+
+          <label>
+            <input required="" name="Number Phone" placeholder="" type="tel" class="input" />
+            <span>Number Phone</span>
+          </label>
+
+          <label style="margin-top: 10px">
+            <div class="span">Your Message :</div>
+            <textarea name="msg" required ></textarea>
+          </label>
+          <button class="submit">Submit</button>
+        </form>
+        <div class="contact-hidden">
+            <div class="address det ">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="p-one">Morocco</div>
+            <div class="p-two">SidiBennour , 18</div>
+          </div>
+          <div class="phone det">
+            <i class="fa-solid fa-phone"></i>
+            <div class="p-one">+212 623839930</div>
+            <div class="p-two">+212 723351203</div>
+          </div>
+          <div class="phone det">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="p-one">skouza.101@gmail.com</div>
+            <div class="p-two">Marwane@outlook.sa</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- container end -->
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+  </body>
+</html>
